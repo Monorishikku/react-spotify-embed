@@ -21,12 +21,10 @@ export const Spotify = ({
   allow = "encrypted-media",
   ...props
 }: SpotifyProps) => {
-  const url = new URL(link);
-  // https://open.spotify.com/track/1KFxcj3MZrpBGiGA8ZWriv?si=f024c3aa52294aa1
   return (
     <iframe
       title="Spotify Web Player"
-      src={`https://open.spotify.com/embed${url.pathname}`}
+      src={link}
       width={width}
       height={height}
       frameBorder={frameBorder}
