@@ -1,0 +1,1 @@
+import a from"react";const d=({link:t,style:e={},wide:r=!1,width:i=r?"100%":300,height:o=r?80:380,frameBorder:n=0,allow:s="encrypted-media",...m})=>a.createElement("iframe",{title:"Spotify Web Player",src:t,width:i,height:o,frameBorder:n,allow:s,style:{borderRadius:8,...e},...m});export{d as Spotify};
